@@ -37,8 +37,20 @@ ul{
     text-align: right;
     font-size: 12px;
 }
-td,th{
+td{
     border: 1px solid black;
     text-align: center;
     padding: 5px;
+}
+img{
+    text-align: center;
+}
+th{
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+    border-bottom: 4px;
+}
+div{
+    text-align: center;
 }
