@@ -11,7 +11,14 @@ body{
     width: 600px;
     background-color: white;
     padding: 36px;
+    font-family: sans-serif;
+    text-align: justify;
 }
 html{
     background-color: #eeee;
+}
+span{
+    color:#007bff;
+    font-style: italic;
+    
 }
