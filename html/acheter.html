@@ -22,17 +22,36 @@
 <p>Remplissez le formulaire ci-dessous pour commander des LEGO !</p>
 <h3>Informations personnelles</h3>
 
-Civilité: M. Mme.
+Civilité: <br/>
+<input type="radio" name="genre"/> M. <input type="radio" name="genre"/> Mme. <br>
+
+<form>
+    <p> Nom: <br><input name="nom" type="text"/> </p>
+    <p> Prénom: <br><input name="nom" type="text"/> </p>
+    <p> Mail: <br><input name="nom" type="text"/> </p>
+  </form>
 Nom:
 Prénom:
 Mail:
 
 <h3>Informations de livraison</h3>
-Quantité commandée: 1 boîte 2 boîtes 3 boîtes 4 boîtes 5 boîtes
+Quantité commandée: <br>
+<select name="pays">
+    <option value="boîte1">1 boîte</option>
+    <option value="boîte2">2 boîtes</option>
+    <option value="boîte3">3 boîtes</option>
+    <option value="boîte4">4 boîte</option>
+    <option value="boîte5">5 boîte</option>
+  </select>
+  <br>
+
 Adresse de livraison:
+<br>
+<textarea name="resume" rows="2" cols="20"></textarea>
 
 <h3>Confirmation</h3>
-J'ai relu ma commande et certifie que ces informations sont correctes.
+<input type="checkbox" name="coche"/><p>J'ai relu ma commande et certifie que ces informations sont correctes.</p>
+<input type="button" value="Confirmer la commande">
 
 <footer>
 
