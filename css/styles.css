@@ -22,3 +22,12 @@ span{
     font-style: italic;
     
 }
+a{
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+
+}
